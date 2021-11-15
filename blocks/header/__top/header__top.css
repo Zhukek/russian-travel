@@ -1,0 +1,21 @@
+.header__top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 28px auto 0 auto;
+  width: calc(100% - 96px);
+  padding: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .header__top {
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .header__top {
+    width: calc(100% - 32px);
+    margin-top: 16px;
+  }
+}
