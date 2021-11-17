@@ -1,4 +1,4 @@
-.header__subtitle {
+.lead__subtitle {
   text-align: center;
   margin: 32px auto 0 auto;
   width: 640px;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 740px) {
-  .header__subtitle {
+  .lead__subtitle {
     margin-top: 16px;
     width: 288px;
     line-height: 20px;

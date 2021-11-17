@@ -5,13 +5,13 @@
   padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  grid-auto-rows: 213px;
+  grid-template-rows: repeat(auto-fit, 213px);
   gap: 16px;
 }
 
 @media screen and (max-width: 1184px) {
   .photo-grid__items {
-    grid-auto-rows: 225px;
+    grid-template-rows: repeat(auto-fit, 225px);
     gap: 14px;
   }
 }
@@ -19,7 +19,7 @@
 @media screen and (max-width: 1000px) {
   .photo-grid__items {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-auto-rows: 264px;
+    grid-template-rows: repeat(auto-fit, 264px);
     gap: 16px;
   }
 }
